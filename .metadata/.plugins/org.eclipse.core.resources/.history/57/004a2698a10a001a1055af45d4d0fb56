@@ -1,0 +1,46 @@
+package Ejericicios;
+
+import java.util.Scanner;
+
+public class Ejercicio6 {
+
+	@SuppressWarnings({"resource", "unused" })
+	public static void main(String[] args) {
+		int num1,num2;
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("Introduce un numero");
+		num1 = keyboard.nextInt();
+		primo(num1);
+		numeros(num2;)
+	}
+	public static int primo(int num1) {
+		int contador = 2;
+		boolean primo = true;
+		while(primo && contador !=num1) {
+			if(num1 % contador == 0) {
+				primo = false;
+				System.out.println("No es primo");
+			}
+			else if (num1 % contador !=0) {
+				primo = false;
+				System.out.println("Es primo");
+			}
+		}
+		return num1;
+		
+	}
+	public static int numeros(int num2) {
+		int i;
+		for(i=0; i<=10000; i++) {
+			if (i % i == 0 && i % 1 == 0) {
+				System.out.println(i);
+			}
+			else {
+				System.out.println("");
+			}
+		}
+		return i;
+		
+	}
+
+}

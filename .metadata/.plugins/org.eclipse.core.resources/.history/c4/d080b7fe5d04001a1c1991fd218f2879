@@ -1,0 +1,9 @@
+package code;
+
+public class ConsoleInput {
+
+	public static void main(String[] args) {
+
+	}
+
+}
